@@ -13,7 +13,7 @@ body{
     transition: all 0.3s;
 }
 .containerPrincipal:hover{
-    transform: scale(0.8);
+    transform: translateY(100px);
 }
 
 .containerButton{

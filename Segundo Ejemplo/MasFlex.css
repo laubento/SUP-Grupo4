@@ -1,0 +1,20 @@
+.container{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+.containerBox{
+    background-color: bisque;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.box{
+    height: 400px;
+    width: 400px;
+    background-color: aquamarine;
+    margin: 10px;
+}
+

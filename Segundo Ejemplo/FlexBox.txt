@@ -1,0 +1,93 @@
+Para poder usar flex tenemos que ponerle al contenedor:
+display: flex;
+
+FLEX-DIRECTION
+>Valor por defecto: row
+
+>row nos apila como una fila
+>row-reverse nos apila como una fila al rever
+>column nos apila como una columna
+>column-reverse nos apila como una columna al reves.
+
+FLEX-WRAP
+>Valor por defecto: nowrap
+
+>nowrap reducen el tamano de los elementos para que entren todos en el contenedor, se puede desbordar
+>wrap si no entran se van para abajo, crean mas lineas
+>wrap-reverse nos voltean el orden de los elementos
+
+FLEX-FLOW
+>se usa: [FLEX-DIRECTION] [FLEX-WRAP]
+Nos sintetiza los dos metodos anteriores.
+
+JUSTIFY-CONTENT
+Aliniamos de manera horizontal
+Valor por defecto: flex-start
+
+>flex-start alineamos a la izquierda
+>flex-end alineamos a la derecha
+>center alineamos al centro
+>space-between alineamos de forma uniforme los elementos
+>space-around alineamos de forma uniforme los elementos pero con un leve espacio entre el contenedor y el elemento
+>space-evenly alineamos de misma longitud los elementos entre la pared del contenedor y el resto de los elementos
+
+ALIGN-ITEMS
+Ordenamos de manera vertical los elementos
+Valor por defecto: flex-start
+
+>flex-start alineamos arriba
+>flex-end alineamos abajo
+>center alineamos al centro
+>stretch ocupan todo el ancho del contenedor (siempre y cuando no tengan altura los elementos definida)
+>baseline ordena de acuerdo al texto principal o container que exista en los elementos
+
+ALIGN-CONTENT
+Trabaja sobre el eje y
+Para funcionar se necesita que exista un flex-flow: wrap o wrap-reverse, y que exista multilinea, es decir que se desbordo los elementos
+Valor por defecto: no posee, depende de la longitud que le hayamos puesto a las filas
+
+>flex-start alineamos arriba
+>flex-end alineamos abajo
+>center alineamos al centro
+>stretch ocupan todo el ancho de la linea en la que esten ubicados (siempre y cuando no tengan altura los elementos definida)
+>space-between alineamos de forma uniforme los elementos
+>space-around alineamos de forma uniforme los elementos pero con un leve espacio entre el contenedor y el elemento
+
+GAP
+Para funcionar se necesita que exista un flex-flow: wrap o wrap-reverse, y que exista multilinea, es decir que se desbordo los elementos
+Poder anadir un espacio entre los elementos del contenedor, similar a un margin.
+Recibe una unidad, (px, em, etc)
+
+ORDER
+Le damos la posicion a los elementos del contenedor
+Empieza en 0
+>order: numero del indice del elemento
+
+FLEX-GROW
+Nos permite definir una unidad relativa de su tamano
+Si le ponemos a todos los elementos el mismo flex-grow se ordenan del mismo tamano los elementos
+Valor por defecto: 0
+>flex-grow: unidad relativa que se pone en numero (0,1,2,etc)
+
+FLEX-SHRINK
+Por defecto los elementos se encongen, si le ponemos esta propiedad podemos establecer que tanto mas queremos que se achique con respecto a los otros, es una pocision relativa.
+>flex-sgrink: unidad relativa que se pone en numero (0,1,2,etc)
+
+FLEX-BASIS
+Nos permite definir cuanto crece un elemento en pixeles, pero nunca se pasa del contenedor, se ajustan a el.
+>flex-basis: unidad px
+
+FLEX
+Conjunto de GROW, SHRINK, BASIS
+Valor por defecto: 0 1 auto
+flex: [FLEX-GROW] [FLEX-SHRINK] [FLEX-BASIS]
+
+ALIGN-SELF
+alineamos de manera vertical SOLO los elementos que nosotros queremos.
+Valor por defecto: flex-start
+
+>flex-start alineamos arriba
+>flex-end alineamos abajo
+>center alineamos al centro
+>stretch ocupan todo el ancho del contenedor (siempre y cuando no tengan altura los elementos definida)
+>baseline ordena de acuerdo al texto principal o container que exista en los elementos
