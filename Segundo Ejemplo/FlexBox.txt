@@ -56,7 +56,7 @@ Valor por defecto: no posee, depende de la longitud que le hayamos puesto a las 
 GAP
 Para funcionar se necesita que exista un flex-flow: wrap o wrap-reverse, y que exista multilinea, es decir que se desbordo los elementos
 Poder anadir un espacio entre los elementos del contenedor, similar a un margin.
-Recibe una unidad, (px, em, etc)
+Recibe una unidad, (px, em, etc, rem)
 
 ORDER
 Le damos la posicion a los elementos del contenedor
