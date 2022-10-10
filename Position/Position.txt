@@ -1,0 +1,13 @@
+Poner a un elemento la propiedad Position nos permite usar las siguientes propiedades:
+top, botton, left, right => Esto lo que hace es que nos permite adaptar el elemento en la pagina 
+
+Valor por defecto: Casi siempre es static, este no nos permite usar las anteriores propiedades
+
+>static: flujo normal del elemento, no cambia nada
+>fixed: Lo que hace es que nos linkea en un lugar fijo de la pantalla el elemento. Podemos usar las propiedades de arriba. El scroll no le afecta
+>relative: Lo que hace es que nos permite mover el elemento con las propiedades de arriba, pero no lo deja fijo. 
+>Absolute: Se posiciona en base a algun elemento, por defecto viene el body.
+    |
+    V
+Para cambiar esto solo basta con poner el elemento dentro del otro elemento que queremos que tenga como referencia para posicionarse.
+El elemento que va a tomar como referencia, osea el padre, tiene que tener position: Relative
