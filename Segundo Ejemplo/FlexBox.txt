@@ -1,4 +1,4 @@
-Para poder usar flex tenemos que ponerle al contenedor:
+Para poder usar flex tenemos que ponerle al contenedor :
 display: flex;
 
 FLEX-DIRECTION
