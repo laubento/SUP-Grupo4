@@ -1,0 +1,10 @@
+Por defecto el display es: block (elementos de bloque, estos elementos ocupan el 100% del ancho) => Van uno debajo del otro
+
+Nota: Algunos elementos varian el valor por defecto:
+A (anchor): inline 
+
+>none (no se muestra el elemento, pero si esta el elemento)
+>block (estos elementos ocupan el 100% del ancho, Van uno debajo del otro)
+>inline (se ponen uno al lado del otro, en la misma linea) (hace que pierda las propiedades de bloque, width, margin, etc)
+>inline-block (se pongan en linea pero mantengan los bloques)
+>flex (notas en FlexBox)
